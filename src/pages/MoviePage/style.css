@@ -1,0 +1,63 @@
+.movie-page {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.movie-page svg {
+  font-size: 1.5rem;
+  color: #f7d354;
+}
+
+.movie-page {
+  text-align: center;
+}
+
+.movie-page img,
+.movie-page h2,
+.movie-page p {
+  margin-bottom: 1rem;
+}
+
+.movie-page h3 {
+  font-size: 2rem;
+}
+
+.movie-page p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  max-width: 600px;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.info {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info h3 {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.description {
+  padding-bottom: 5rem;
+}
+
+.description p {
+  line-height: 1.4rem;
+}
