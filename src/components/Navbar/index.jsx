@@ -5,8 +5,8 @@ import { BiCameraMovie, BiSearchAlt2 } from 'react-icons/bi';
 import './style.css';
 
 const Navbar = () => {
-  const [search, setSearch] = useState('');
   const navigate = useNavigate();
+  const [search, setSearch] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
